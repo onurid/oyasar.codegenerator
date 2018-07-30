@@ -1,0 +1,14 @@
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Repository.Data\bin\Debug\netstandard2.0\MAN.Repository.Data.deps.json
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Repository.Data\bin\Debug\netstandard2.0\MAN.Repository.Data.dll
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Repository.Data\bin\Debug\netstandard2.0\MAN.Repository.Data.pdb
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Repository.Data\bin\Debug\netstandard2.0\MAN.Core.dll
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Repository.Data\bin\Debug\netstandard2.0\MAN.Core.Repository.dll
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Repository.Data\bin\Debug\netstandard2.0\MAN.Core.Repository.pdb
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Repository.Data\bin\Debug\netstandard2.0\MAN.Core.pdb
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Repository.Data\obj\Debug\netstandard2.0\MAN.Repository.Data.csprojAssemblyReference.cache
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Repository.Data\obj\Debug\netstandard2.0\MAN.Repository.Data.csproj.CoreCompileInputs.cache
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Repository.Data\obj\Debug\netstandard2.0\MAN.Repository.Data.AssemblyInfoInputs.cache
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Repository.Data\obj\Debug\netstandard2.0\MAN.Repository.Data.AssemblyInfo.cs
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Repository.Data\obj\Debug\netstandard2.0\MAN.Repository.Data.csproj.CopyComplete
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Repository.Data\obj\Debug\netstandard2.0\MAN.Repository.Data.dll
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Repository.Data\obj\Debug\netstandard2.0\MAN.Repository.Data.pdb

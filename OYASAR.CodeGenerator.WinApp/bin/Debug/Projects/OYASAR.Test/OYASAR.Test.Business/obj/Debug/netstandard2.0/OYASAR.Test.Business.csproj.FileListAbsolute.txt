@@ -1,0 +1,11 @@
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Business\bin\Debug\netstandard2.0\OYASAR.Test.Business.deps.json
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Business\bin\Debug\netstandard2.0\OYASAR.Test.Business.dll
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Business\bin\Debug\netstandard2.0\OYASAR.Test.Business.pdb
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Business\bin\Debug\netstandard2.0\OYASAR.Test.Core.dll
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Business\bin\Debug\netstandard2.0\OYASAR.Test.Core.pdb
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Business\obj\Debug\netstandard2.0\OYASAR.Test.Business.csproj.CoreCompileInputs.cache
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Business\obj\Debug\netstandard2.0\OYASAR.Test.Business.AssemblyInfoInputs.cache
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Business\obj\Debug\netstandard2.0\OYASAR.Test.Business.AssemblyInfo.cs
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Business\obj\Debug\netstandard2.0\OYASAR.Test.Business.csproj.CopyComplete
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Business\obj\Debug\netstandard2.0\OYASAR.Test.Business.dll
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Business\obj\Debug\netstandard2.0\OYASAR.Test.Business.pdb

@@ -1,0 +1,94 @@
+﻿<#@ assembly name="$(SolutionDir)OYASAR.CodeGenerator.Lib\bin\debug\OYASAR.CodeGenerator.Lib.dll" #>
+<#@ import namespace="OYASAR.CodeGenerator.Lib.TextTemplateModel" #>
+
+<#@ import namespace="OYASAR.CodeGenerator.Lib.TemplateManager" #>
+
+<#@ output extension=".bat" #>
+
+<# Architecture model =  ArchitectureManager.Data; #>
+
+@echo off
+
+title OYASAR SLN ENVIRONMENT GENERATOR
+echo "# <====== OYASAR SLN ENVIRONMENT GENERATOR ======>"
+
+mkdir Projects
+cd Projects
+
+mkdir OYASAR.<#=model.ProjectName #>
+cd OYASAR.<#=model.ProjectName #>
+
+mkdir OYASAR.<#=model.ProjectName #>.Core
+cd OYASAR.<#=model.ProjectName #>.Core
+dotnet new classlib
+dotnet add package oyasar.framework.core
+del Class1.cs 
+mkdir Base
+mkdir Dto
+mkdir Model
+mkdir Service
+cd ..
+
+mkdir OYASAR.<#=model.ProjectName #>.Business
+cd OYASAR.<#=model.ProjectName #>.Business
+dotnet new classlib
+dotnet add reference ../OYASAR.<#=model.ProjectName #>.Core/OYASAR.<#=model.ProjectName #>.Core.csproj
+del Class1.cs
+cd ..
+
+mkdir OYASAR.<#=model.ProjectName #>.Core.Repository
+cd OYASAR.<#=model.ProjectName #>.Core.Repository
+dotnet new classlib
+dotnet add reference ../OYASAR.<#=model.ProjectName #>.Core/OYASAR.<#=model.ProjectName #>.Core.csproj
+del Class1.cs
+mkdir Base
+mkdir DbContext
+mkdir Model
+cd ..
+
+mkdir OYASAR.<#=model.ProjectName #>.Repository
+cd OYASAR.<#=model.ProjectName #>.Repository
+dotnet new classlib
+dotnet add reference ../OYASAR.<#=model.ProjectName #>.Core.Repository/OYASAR.<#=model.ProjectName #>.Core.Repository.csproj
+dotnet add package oyasar.framework.utils
+del Class1.cs
+mkdir Base
+mkdir Mapping
+cd ..
+
+mkdir OYASAR.<#=model.ProjectName #>.Repository.<#=model.ORM.Name #>
+cd OYASAR.<#=model.ProjectName #>.Repository.<#=model.ORM.Name #>
+dotnet new classlib
+dotnet add reference ../OYASAR.<#=model.ProjectName #>.Core.Repository/OYASAR.<#=model.ProjectName #>.Core.Repository.csproj
+dotnet add package Microsoft.EntityFrameworkCore -v 2.0.1
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer -v 1.1.5
+del Class1.cs
+mkdir DbContext
+cd ..
+
+mkdir OYASAR.<#=model.ProjectName #>.Api
+cd OYASAR.<#=model.ProjectName #>.Api
+dotnet new webapi
+dotnet add reference ../OYASAR.<#=model.ProjectName #>.Core/OYASAR.<#=model.ProjectName #>.Core.csproj
+dotnet add reference ../OYASAR.<#=model.ProjectName #>.Repository/OYASAR.<#=model.ProjectName #>.Repository.csproj
+dotnet add reference ../OYASAR.<#=model.ProjectName #>.Business/OYASAR.<#=model.ProjectName #>.Business.csproj
+dotnet add reference ../OYASAR.<#=model.ProjectName #>.Repository.<#=model.ORM.Name #>/OYASAR.<#=model.ProjectName #>.Repository.<#=model.ORM.Name #>.csproj
+dotnet add package OYASAR.Framework.<#=model.IOC.Name #>
+dotnet add package Microsoft.AspNetCore.All -v 2.0.3
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design -v 2.0.1
+dotnet add package oyasar.framework.<#=model.Mapper.Name #>
+dotnet add package oyasar.framework.<#=model.ORM.Name #>
+cd ..
+
+dotnet new sln
+dotnet sln add OYASAR.<#=model.ProjectName #>.Core/OYASAR.<#=model.ProjectName #>.Core.csproj
+dotnet sln add OYASAR.<#=model.ProjectName #>.Core.Repository/OYASAR.<#=model.ProjectName #>.Core.Repository.csproj
+dotnet sln add OYASAR.<#=model.ProjectName #>.Repository/OYASAR.<#=model.ProjectName #>.Repository.csproj
+dotnet sln add OYASAR.<#=model.ProjectName #>.Repository.<#=model.ORM.Name #>/OYASAR.<#=model.ProjectName #>.Repository.<#=model.ORM.Name #>.csproj
+dotnet sln add OYASAR.<#=model.ProjectName #>.Business/OYASAR.<#=model.ProjectName #>.Business.csproj
+dotnet sln add OYASAR.<#=model.ProjectName #>.Api/OYASAR.<#=model.ProjectName #>.Api.csproj
+
+dotnet restore
+dotnet build
+
+pause

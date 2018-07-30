@@ -1,0 +1,14 @@
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Repository.EF\bin\Debug\netstandard2.0\OYASAR.Test.Repository.EF.deps.json
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Repository.EF\bin\Debug\netstandard2.0\OYASAR.Test.Repository.EF.dll
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Repository.EF\bin\Debug\netstandard2.0\OYASAR.Test.Repository.EF.pdb
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Repository.EF\bin\Debug\netstandard2.0\OYASAR.Test.Core.dll
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Repository.EF\bin\Debug\netstandard2.0\OYASAR.Test.Core.Repository.dll
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Repository.EF\bin\Debug\netstandard2.0\OYASAR.Test.Core.Repository.pdb
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Repository.EF\bin\Debug\netstandard2.0\OYASAR.Test.Core.pdb
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Repository.EF\obj\Debug\netstandard2.0\OYASAR.Test.Repository.EF.csprojAssemblyReference.cache
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Repository.EF\obj\Debug\netstandard2.0\OYASAR.Test.Repository.EF.csproj.CoreCompileInputs.cache
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Repository.EF\obj\Debug\netstandard2.0\OYASAR.Test.Repository.EF.AssemblyInfoInputs.cache
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Repository.EF\obj\Debug\netstandard2.0\OYASAR.Test.Repository.EF.AssemblyInfo.cs
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Repository.EF\obj\Debug\netstandard2.0\OYASAR.Test.Repository.EF.csproj.CopyComplete
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Repository.EF\obj\Debug\netstandard2.0\OYASAR.Test.Repository.EF.dll
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Repository.EF\obj\Debug\netstandard2.0\OYASAR.Test.Repository.EF.pdb

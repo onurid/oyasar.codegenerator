@@ -1,0 +1,1 @@
+GenerateSln.bat MAN 

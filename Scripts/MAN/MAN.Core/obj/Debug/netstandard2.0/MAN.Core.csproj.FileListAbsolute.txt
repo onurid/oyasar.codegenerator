@@ -1,0 +1,9 @@
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Core\bin\Debug\netstandard2.0\MAN.Core.deps.json
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Core\bin\Debug\netstandard2.0\MAN.Core.dll
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Core\bin\Debug\netstandard2.0\MAN.Core.pdb
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Core\obj\Debug\netstandard2.0\MAN.Core.csprojAssemblyReference.cache
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Core\obj\Debug\netstandard2.0\MAN.Core.csproj.CoreCompileInputs.cache
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Core\obj\Debug\netstandard2.0\MAN.Core.AssemblyInfoInputs.cache
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Core\obj\Debug\netstandard2.0\MAN.Core.AssemblyInfo.cs
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Core\obj\Debug\netstandard2.0\MAN.Core.dll
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Core\obj\Debug\netstandard2.0\MAN.Core.pdb

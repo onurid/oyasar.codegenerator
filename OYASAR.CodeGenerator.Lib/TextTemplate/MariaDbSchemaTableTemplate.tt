@@ -1,0 +1,18 @@
+﻿
+<#@ import namespace="System.Linq" #>
+<#@ assembly name="$(SolutionDir)OYASAR.CodeGenerator.Lib\bin\debug\OYASAR.CodeGenerator.Lib.dll" #>
+<#@ import namespace="OYASAR.CodeGenerator.Lib.TextTemplateModel" #>
+
+<#@ import namespace="OYASAR.CodeGenerator.Lib.TemplateManager" #>
+
+<#@ output extension=".sql" #>
+
+
+<# MariaDbSchema model = MariaDbSchemaManager.Data; #>
+
+CREATE TABLE IF NOT EXISTS `<#=model.TableName #>` (<#  foreach(var item in model.Fields) { #> 
+	`<#= item.Key #>` <#= item.Value #><# if (model.Fields.Last().Key != item.Key){#>, <#} #>  <# } #><# if (model.PrimaryKey) {  #>, 
+	INDEX `PK_<#=model.TableName #>` (`ID`),
+	CONSTRAINT `PK_<#=model.TableName #>` PRIMARY KEY ( `ID` ASC )<# if (model.Indexs.Count() != 0) {  #>,
+	UNIQUE KEY (<#  foreach(var item in model.Indexs) {#>`<#= item #>`<# if (model.Indexs.Last() != item) {  #>, <#} #> <#	} #>) <# } #> <# } #> 
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci;

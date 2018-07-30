@@ -1,0 +1,15 @@
+﻿
+<#@ import namespace="System.Linq" #>
+<#@ assembly name="$(SolutionDir)OYASAR.CodeGenerator.Lib\bin\debug\OYASAR.CodeGenerator.Lib.dll" #>
+<#@ import namespace="OYASAR.CodeGenerator.Lib.TextTemplateModel" #>
+
+<#@ import namespace="OYASAR.CodeGenerator.Lib.TemplateManager" #>
+
+<#@ output extension=".sql" #>
+
+
+<# MariaDbSchema model = MariaDbSchemaManager.Data; #>
+
+<# if (model.ForeingKeys.Count() != 0) {  #>
+ALTER TABLE  `<#=model.TableName #>` <#  foreach(var item in model.ForeingKeys) {#> 
+ADD CONSTRAINT `<#= item.KeyName #>` FOREIGN KEY (`<#= item.ColumnName #>`) REFERENCES `<#= item.ReferenceTableName #>` (`ID`) <# if (model.ForeingKeys.Last().KeyName != item.KeyName) {  #>  , <#	} else { #> ;  <#	}  #>  <#	} #>  <#	} #>

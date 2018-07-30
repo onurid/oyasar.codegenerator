@@ -1,0 +1,9 @@
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Core\bin\Debug\netstandard2.0\OYASAR.Test.Core.deps.json
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Core\bin\Debug\netstandard2.0\OYASAR.Test.Core.dll
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Core\bin\Debug\netstandard2.0\OYASAR.Test.Core.pdb
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Core\obj\Debug\netstandard2.0\OYASAR.Test.Core.csprojAssemblyReference.cache
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Core\obj\Debug\netstandard2.0\OYASAR.Test.Core.csproj.CoreCompileInputs.cache
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Core\obj\Debug\netstandard2.0\OYASAR.Test.Core.AssemblyInfoInputs.cache
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Core\obj\Debug\netstandard2.0\OYASAR.Test.Core.AssemblyInfo.cs
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Core\obj\Debug\netstandard2.0\OYASAR.Test.Core.dll
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\OYASAR.CodeGenerator.WinApp\bin\Debug\Projects\OYASAR.Test\OYASAR.Test.Core\obj\Debug\netstandard2.0\OYASAR.Test.Core.pdb

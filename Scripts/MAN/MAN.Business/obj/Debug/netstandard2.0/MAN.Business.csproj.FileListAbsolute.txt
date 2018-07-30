@@ -1,0 +1,12 @@
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Business\bin\Debug\netstandard2.0\MAN.Business.deps.json
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Business\bin\Debug\netstandard2.0\MAN.Business.dll
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Business\bin\Debug\netstandard2.0\MAN.Business.pdb
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Business\bin\Debug\netstandard2.0\MAN.Core.dll
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Business\bin\Debug\netstandard2.0\MAN.Core.pdb
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Business\obj\Debug\netstandard2.0\MAN.Business.csprojAssemblyReference.cache
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Business\obj\Debug\netstandard2.0\MAN.Business.csproj.CoreCompileInputs.cache
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Business\obj\Debug\netstandard2.0\MAN.Business.AssemblyInfoInputs.cache
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Business\obj\Debug\netstandard2.0\MAN.Business.AssemblyInfo.cs
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Business\obj\Debug\netstandard2.0\MAN.Business.csproj.CopyComplete
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Business\obj\Debug\netstandard2.0\MAN.Business.dll
+C:\Users\Odmsn\source\repos\oyasar.codegenerator\Scripts\MAN\MAN.Business\obj\Debug\netstandard2.0\MAN.Business.pdb

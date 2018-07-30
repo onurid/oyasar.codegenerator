@@ -1,0 +1,45 @@
+﻿<#@ template language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+
+<#@ assembly name="System" #>
+<#@ import namespace="System" #>
+
+<#@ assembly name="$(SolutionDir)OYASAR.CodeGenerator.Lib\bin\debug\OYASAR.CodeGenerator.Lib.dll" #>
+<#@ import namespace="OYASAR.CodeGenerator.Lib.TextTemplateModel" #>
+
+<#@ import namespace="OYASAR.CodeGenerator.Lib.TemplateManager" #>
+
+<#@ output extension=".cs" #>
+
+<# BusinessObject model =  BusinessObjectManager.Data; #>
+
+using OYASAR.<#=model.ProjectName #>.Core.Base;
+using System;
+  
+namespace <#=model.NameSpace #>
+{
+
+	public partial class <#=model.Class #> : BaseDomain
+    {
+	 		<#  foreach(var item in model.Params)
+		{
+			#>
+
+		public <#= item.Value #> <#= item.Key #>
+        {
+            get
+            {
+                return Entity.<#= item.Key #>;
+            }
+            private set
+            {
+                Entity.<#= item.Key #> = value;
+            }
+        }
+
+		<#	} #>
+	}
+}
